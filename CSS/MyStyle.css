@@ -1,0 +1,17 @@
+.leftSection{
+    display: flex;
+    background: blue;
+    width: 65%;
+}
+.rightSection{
+    display: flex;
+    background: red;
+    width: 35%;
+}
+.myPhoto{
+    width: 200px;
+}
+.settings{
+    display: flex;
+    flex-wrap: wrap;
+}
