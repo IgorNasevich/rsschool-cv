@@ -1,17 +1,139 @@
+.html{
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: rgb(114, 114, 114); 
+}
+
+.menu{
+    display: flex;
+    min-height: 50px;
+}
+
+.menu_list{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_item a{
+    padding: 15.8px;
+    text-transform: uppercase;
+}
+
+.contacts_list{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.contacts_item{
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+li a{
+    display: flex;
+    padding: 10px
+}
+
+header a{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+}
+
+main a{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+}
+
 .leftSection{
     display: flex;
-    background: blue;
-    width: 65%;
+    flex-direction: column;
+    width: 35vw;
+    background: rgb(216, 220, 255);
+    min-height: 400px;
 }
+
 .rightSection{
     display: flex;
-    background: red;
-    width: 35%;
+    width: 65vw;
+    background: white;
+    min-height: 400px;
 }
-.myPhoto{
-    width: 200px;
+
+.photoBlock{
+    margin-bottom: 50px;
 }
-.settings{
+
+.Photo{
+    width: 100%    
+} 
+
+.container {
+    margin: 0 auto;
+    padding: 0;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.sectionTitle{
+    position: relative;
+    background: rgb(120, 115, 223);
+    font-size: 2.5rem;
+    padding-left: 60px;
+    margin: 0 0 50px 0 ;
+    color: blue;
+}
+
+.sectionTitle::before{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 30px;
+    height: 40px;
+    background: rgb(0, 0, 255);
+    content: "";
+}
+
+.leftSectionAllDivSettings{
+    margin: 0;
+}
+
+div p{
+    font-size: 1.43rem;
+    margin: 0 30px 50px 60px;
+}
+
+
+a:hover{
+    color: white;
+    transition: color 0.6s ease;
+}
+
+a:hover{
+    background: black;
+    transition: background 0.6s ease;
 }
