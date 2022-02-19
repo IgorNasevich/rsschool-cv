@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nasevich Igor CV</title>
+        <link rel="stylesheet" href="../CSS/MyStyle.css">
     </head>
-    <link rel="stylesheet" href="..\CSS\MyStyle.css">
         <body class="page_body">
         <div class="wrapper">
             <header class="header">
@@ -28,7 +28,7 @@
                             <a href="#skills">Skills</a> 
                         </li>
                         <li class="menu_item">
-                            <a href="#code example">Code Example</a>
+                            <a href="#code_example">Code Example</a>
                         </li>
                     </ul>
                 </nav>
@@ -37,7 +37,7 @@
                 <section class="leftSection">
                     <div class="photoBlock"> 
                         <img class="Photo"
-                        src="..\img\ava2.jpg"
+                        src="../img/ava2.jpg"
                         alt="My Photo" 
                         />
                     </div>
@@ -167,14 +167,44 @@
                                     Git
                                 </p>
                             </li>
+                        </ul>
                     </div>
-                    <div class="right_section_div" id="code example">
+                    <div class="right_section_div" id="code_example">
                         <h2 class="sectionTitle">
                             Code example
-                        </h2>    
+                        </h2>
+                        <pre>
+                            <code>
+function hello(name) {
+    if(name === '' || name === undefined){
+    return "Hello, World!";
+    }
+let fullString = "Hello, " + name[0].toUpperCase() +
+name.slice(1,-1) + name.slice(-1).toLowerCase() + "!";
+return fullString;
+}
+                            </code>
+                        </pre>    
                     </div>
                 </section>
             </main>
+            <footer class="footer">
+                <div class="gitHub">
+                    <a class="footer_link"  href="https://github.com/IgorNasevich">
+                        My GitHub
+                    </a>
+                </div>
+                <div class="year">
+                    <p class="yearP">
+                        2022
+                    </p>
+                </div>
+                <div class="rsLogo">
+                    <a href="https://rs.school/js/">
+                        <img class="RSlogo" src="../img/rs_school_js.svg" alt="RS logo"/>
+                    </a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>

@@ -107,7 +107,7 @@ main a{
 }
 
 .Photo{
-    width: 100%;   
+    width: 35vw;   
 } 
 
 .container {
@@ -149,14 +149,18 @@ a p{
     margin: 0;
 }
 
-a:hover{
+header a:hover, main a:hover{
     color: white;
     transition: color 0.6s ease;
 }
 
-a:hover{
+header a:hover, main a:hover{
     background: black;
     transition: background 0.6s ease;
+}
+
+footer a:hover{
+    font-size: ;
 }
 
 .page_body{
@@ -197,10 +201,6 @@ h1{
     margin:0;
 }
 
-.right_section_div{
-
-}
-
 .Eng_level{
     font-size: 1.7rem;
     font-weight: 700;
@@ -225,5 +225,62 @@ h1{
 }
 
 .skills_list li:last-child p, .eng_list li:last-child p{
-    margin:0;
+    margin: 0;
+}
+
+pre{
+    margin: 0 0 50px 60px;
+}
+
+.footer{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    background:rgb(199, 199, 255);
+}
+
+.gitHub{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 33.3%;
+}
+
+.year{
+    flex: 0 0 33.3%;
+}
+
+.rsLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 33.3%;
+}
+
+.gitHub:hover{
+    font-size: 1.55rem;
+    transition: 0.5s ease;
+}
+
+.RSlogo{
+    width:80px;
+}
+
+.RSlogo:hover{
+    width: 100px;
+    transition: width 0.5s ease;
+}
+
+.yearP{
+    text-align: center;
+    margin: 0;
+}
+
+.footer_link{
+    justify-self: center;
+    align-self: center;
 }
