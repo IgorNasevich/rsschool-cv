@@ -1,0 +1,246 @@
+.html{
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+li {
+     list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.header{
+    width: 100%;
+    background: rgb(114, 114, 114); 
+}
+
+.menu{
+    min-height: 50px;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_item a{
+    padding: 15.8px;
+    text-transform: uppercase;
+}
+
+.contacts_list{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.contacts_item{
+    font-size: 18px;
+}
+
+.education_list{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.education_item{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+li a{
+    display: flex;
+    padding: 10px 10px 10px 60px;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+}
+
+main a{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+}
+
+.leftSection{
+    width: 35%;
+    background: rgb(216, 220, 255);
+    min-height: 400px;
+    float: left;
+}
+
+main{
+    font-size:0;
+}
+
+code{
+    font-size: 16px;
+}
+
+.Photo{
+    width: 100%;
+    margin-bottom: 50px;   
+} 
+
+.sectionTitle{
+    position: relative;
+    background: rgb(120, 115, 223);
+    font-size: 2.5rem;
+    padding-left: 60px;
+    margin: 0 0 50px 0 ;
+    color: blue;
+}
+
+.sectionTitle::before{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 30px;
+    height: 40px;
+    background: rgb(0, 0, 255);
+    content: "";
+}
+
+.profile{
+    font-size: 1.43rem;
+    margin: 0 30px 50px 60px;
+}
+
+a p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+header a:hover, main a:hover{
+    color: white;
+    transition: color 0.6s ease;
+}
+
+header a:hover, main a:hover{
+    background: black;
+    transition: background 0.6s ease;
+}
+
+/* RIGHT SECTION */
+.rightSection{
+    float:left;
+    width: 65%;
+    background: white;
+    min-height: 400px;
+}
+
+.page_title {
+    padding: 100px 80px 125px 100px;
+}
+
+h1{
+    color: blue;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.page_title p{
+    font-size: 1.5rem;
+    margin:0;
+}
+
+.Eng_level{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 30px 60px;
+}
+
+.skills_list, .eng_list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 60px;
+    font-size: 1rem;
+}
+
+.skills_list li, .eng_list li{
+    list-style-type: disc;
+}
+
+.skills_list li p, .eng_list li p{
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+}
+
+.skills_list li:last-child p, .eng_list li:last-child p{
+    margin: 0;
+}
+
+pre{
+    margin: 0 0 50px 60px;
+}
+
+.footer{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    background:rgb(199, 199, 255);
+}
+
+.gitHub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 33.3%;
+}
+
+.year{
+    flex: 0 0 33.3%;
+}
+
+.rsLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 33.3%;
+}
+
+.gitHubLink:hover{
+    font-size: 1.55rem;
+    transition: 0.5s ease;
+}
+
+.RSlogo{
+    width:80px;
+}
+
+.RSlogo:hover{
+    width: 100px;
+    transition: width 0.5s ease;
+}
+
+.yearP{
+    text-align: center;
+    margin: 0;
+}
+
