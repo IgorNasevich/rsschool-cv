@@ -4,7 +4,6 @@
 }
 
 li {
-     /* Убираем маркеры */
      list-style-type: none;
 }
 
@@ -16,28 +15,21 @@ ul {
 .wrapper{
     display: flex;
     flex-direction: column;
-    margin: auto 0;
-    /* padding:0 15px; */
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .header{
-    margin: 0 auto;
-    /* position: absolute; */
-    /* top:0;
-    left:0; */
     width: 100%;
-    /* z-index: 50; */
     background: rgb(114, 114, 114); 
 }
 
 .menu{
-    display: flex;
     min-height: 50px;
 }
 
 .menu_list{
     display: flex;
-    flex: 1 1 auto;
     justify-content: space-around;
     align-items: center;
 }
@@ -93,28 +85,24 @@ main a{
 }
 
 .leftSection{
-    display: flex;
-    flex-direction: column;
-    width: 35vw;
+    width: 35%;
     background: rgb(216, 220, 255);
     min-height: 400px;
+    float: left;
 }
 
+main{
+    font-size:0;
+}
 
-
-.photoBlock{
-    margin-bottom: 50px;
+code{
+    font-size: 16px;
 }
 
 .Photo{
-    width: 35vw;   
+    width: 100%;
+    margin-bottom: 50px;   
 } 
-
-.container {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-}
 
 .sectionTitle{
     position: relative;
@@ -133,10 +121,6 @@ main a{
     height: 40px;
     background: rgb(0, 0, 255);
     content: "";
-}
-
-.leftSectionAllDivSettings{
-    margin: 0;
 }
 
 .profile{
@@ -159,33 +143,16 @@ header a:hover, main a:hover{
     transition: background 0.6s ease;
 }
 
-footer a:hover{
-    font-size: ;
-}
-
-.page_body{
-    min-height: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-/* @media(max-width: 1087px){
-    .header{
-        max-width: 970px;
-    }
-} */
-
 /* RIGHT SECTION */
 .rightSection{
-    display: flex;
-    flex-direction: column;
-    width: 65vw;
+    float:left;
+    width: 65%;
     background: white;
     min-height: 400px;
 }
 
 .page_title {
-    margin: 100px 80px 125px 100px;
+    padding: 100px 80px 125px 100px;
 }
 
 h1{
@@ -206,7 +173,6 @@ h1{
     font-weight: 700;
     margin: 0 0 30px 60px;
 }
-
 
 .skills_list, .eng_list{
     display: flex;
@@ -243,8 +209,6 @@ pre{
 
 .gitHub{
     display: flex;
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     flex: 0 0 33.3%;
@@ -261,7 +225,7 @@ pre{
     flex: 0 0 33.3%;
 }
 
-.gitHub:hover{
+.gitHubLink:hover{
     font-size: 1.55rem;
     transition: 0.5s ease;
 }
@@ -280,7 +244,3 @@ pre{
     margin: 0;
 }
 
-.footer_link{
-    justify-self: center;
-    align-self: center;
-}
